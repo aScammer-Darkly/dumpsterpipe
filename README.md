@@ -1,3 +1,8 @@
+*bandaid fixes
+-chmod +x ~/.dumpsterpipe/bin/dumpsterpipe
+ -no need to run this as root
+-move the files inside of dumpsterpipe after cloning directly into .dumpsterpipe,and delete now empty dumpsterpipe folder inside of .dumpsterpipe fixing soon
+
 ##Poorly documented work in progress##
 
 # dumpsterpipe
