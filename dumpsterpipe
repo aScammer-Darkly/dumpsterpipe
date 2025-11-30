@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+# Path to runtime modules
+DP_ROOT="$HOME/.dumpsterpipe/runtime"
+
+# Load the core runtime logic
+source "$DP_ROOT/core.zsh"
+
+# Pass through all arguments
+dp::main "$@"
