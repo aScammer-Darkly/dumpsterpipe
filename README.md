@@ -36,7 +36,9 @@ source ~/.dumpsterpipe/completions/dp.zsh
 autoload -Uz compinit && compinit -C  # -C skips checking the dump file
 compdef _dp_complete dumpsterpipe
 compdef _dp_complete dp
-
+```
+exec zsh
+```
 Tab should now provide completions for commands as well as pip packages
 
 ##Using dumpsterpipe install gh##
